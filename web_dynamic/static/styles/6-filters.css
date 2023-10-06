@@ -41,6 +41,10 @@ button:hover {
     font-weight: 400;
     font-size: 14px;
 }
+/*.amenities h4 {
+    color: black;
+    overflow-y: hidden;
+}*/
 .locations {
     height: 100%;
     width: 25%;
@@ -69,7 +73,6 @@ button:hover {
 }
 
 .amenities .popover {
-    padding: 10px 0;
     margin-left: -5px;
     margin-top: 0%;
 }
@@ -100,4 +103,7 @@ button:hover {
 .amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
+}
+input[type="checkbox"] {
+  margin-left: 10px;
 }
