@@ -8,6 +8,8 @@ $(document).ready(function () {
     } else {
       delete amenityIDs[amenityID];
     }
+    const amenitiesList = Object.values(amenityIDs).join(', ');
+    $('.amenities h4').text(amenitiesList);
     updateAmenities();
   });
 
